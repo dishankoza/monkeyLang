@@ -1,7 +1,5 @@
 package token
 
-import "fmt"
-
 type TokenType string
 
 type Token struct {
@@ -29,7 +27,3 @@ const (
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
 )
-
-func Greet() {
-	fmt.Println("Hello from token package")
-}
